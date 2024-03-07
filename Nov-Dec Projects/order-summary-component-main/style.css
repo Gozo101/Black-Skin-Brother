@@ -1,0 +1,74 @@
+*{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(116, 236, 236);
+}
+
+.card{
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgb(50, 53, 54);
+}
+
+.card img{
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  margin: 0;
+}
+
+.main{
+  display:block;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 17px;
+}
+
+
+.order h3{
+  color: rgb(25, 25, 250);
+  margin: 0;
+  padding-top: 40px;
+}
+
+.listen{
+  color: rgb(27, 27, 68);
+  padding: 0px 35px;
+}
+
+.plan{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 65px;
+}
+
+.plan a{
+  padding: 28px;
+  text-decoration: underline;
+  color: rgb(12, 12, 97);
+  font-weight: bold;
+}
+
+.pay a{
+  background-color: rgb(31, 46, 184);
+  padding: 10px 80px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 4px 4px 5px rgb(91, 98, 167);
+}
+
+.cancel{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.cancel h4{
+  cursor: pointer;
+  color: rgb(92, 92, 201);
+}
+
+

@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.phase1{
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-size: cover;
+    height: 550px;
+    background-color: rgb(166, 230, 230);
+    padding: 0 80px;
+}
+
+.logo{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.try-btn{
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 3px 0 2px 0 rgb(32, 32, 32);
+}
+
+.community-holder{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    padding-right: 35px;
+}
+
+.community-holder img{
+    width: 100%;
+}
+
+.community h1{
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.community p{
+    width: 57%;
+    padding-bottom: 20px;
+}
+
+#try-btn{
+    box-shadow: none;
+    background-color: rgb(236, 21, 172);
+    box-shadow: 3px 0 2px 0 rgb(233, 89, 190);
+    padding: 10px 60px;
+}
+
+.phase2{
+    background-color: hsl(193, 100%, 96%);
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    gap: 20px;
+    grid-template-columns: auto;
+    padding: 0 80px;
+    padding-top: 90px;
+}
+
+.grow, .users{
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.flow{
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns:2fr 1.3fr;
+    align-items: center;
+    padding-left: 60px;
+}
+
+
+.flow img{
+    width: 50%;
+}
+
+.grow img, .users img{
+    width: 100%;
+}
+
+.grow-message, .users-message{
+    width: 50%;
+}
+
+.grow-message h1, .users-message h1, .flow-message h1{
+    padding-bottom: 15px;
+}
+
+.build-community{
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    text-align: center;
+    /* justify-self: center; */
+    padding: 40px 20px;
+}
+
+.move{
+    justify-self: center;
+}
+
+.build-community h1{
+    padding-bottom: 30px;
+}
+
+footer{
+    padding: 70px 80px;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 0.5fr 0.8fr;
+    gap: 35px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+.contact-info p{
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+footer .logo{
+    padding-bottom: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer .list ul, .socials{
+    padding-top: 35px;
+}
+
+footer .list li{
+    padding-bottom: 20px;
+}
+
+.socials a{
+    padding: 10px 15px;
+}
+
+footer #fb, footer #twitter, footer #ig{
+    transition: all 1s ease-in-out;
+    transform: scale(1);
+}
+
+footer #fb:hover{
+    color: rgb(17, 53, 255);
+    background-color: white;
+    border-radius: 50px;
+    transform: scale(1.1);
+}
+  
+footer #twitter:hover {
+    color: rgb(17, 180, 255);
+    background-color: white;
+    border-radius: 50px;
+    transform: scale(1.1);
+}
+  
+footer #ig:hover {
+    background-image: linear-gradient(to right, rgb(240, 55, 86), purple);
+    background-color: white;
+    border-radius: 5000px;
+    border: none;
+    transform: scale(1.1);
+}

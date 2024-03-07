@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+padding: 0 100px;
+background-color: wheat;
+}
+
+.logo{
+  cursor: pointer;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+padding: 50px 0 30px 0;
+/* border: 2px solid red; */
+}
+
+nav ul{
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+nav li{
+display: inline;
+padding-inline: 23px;
+}
+
+nav a{
+  text-decoration: none;
+  color: rgb(22, 22, 22);
+}
+
+nav a:hover{
+  color: blueviolet;
+  transition: .4s ;
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: underline;
+  transition-delay: 2ms;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 5px;
+  /* background-color: brown; */
+  /* border: 2px solid purple; */
+}
+
+.grid .img{
+  /* border: 2px solid red; */
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.grid .img img{
+  width: 100%;
+  height: 100%;
+}
+
+.dive{
+  /* border: 2px solid red; */
+}
+.dive p{
+  padding-bottom: 20px;
+}
+
+.dive a{
+text-decoration: none;
+text-transform: uppercase;
+color: white;
+background: rgb(209, 19, 19);
+padding: 15px 30px;
+}
+
+.new{
+background-color: rgb(9, 9, 32);
+padding: 18px;
+width: 90%;
+/* border: 2px solid red; */
+grid-row-start: 1;
+grid-row-end: -1;
+grid-column-end: -1;
+}
+
+.new h4, .new p{
+text-align: justify;
+}
+
+.web3 h1{
+  font-size: 40px;
+  width: 75%;
+}
+
+.new h2{
+  color: rgb(226, 92, 3);
+  padding: 5px 0;
+}
+
+.new h4{
+  color: white;
+  padding-top: 12px;
+}
+
+.new p{
+  color: white;
+  padding: 20px 0;
+}
+
+.retro{
+grid-row-start: 6;
+grid-row-end: -1;
+}
+
+.laptop{
+grid-row-start: 5;
+grid-row-end: -1;
+}
+
+.retro, .laptop{
+  display:inline-block;
+  width: 50%;
+  height: 60%;
+}
+
+.retro img, .laptop img{
+  width: 80%;
+  height: 80%;
+}
+
+.retro h2, .laptop h2{
+  color: rgb(122, 122, 118);
+}
+
+.retro h5, .laptop h5{
+  color: rgb(156, 6, 6);
+}
+
+.retro p, .laptop p{
+  color: rgb(0, 0, 0);
+}

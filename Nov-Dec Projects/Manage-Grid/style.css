@@ -1,0 +1,393 @@
+* {
+  font-family: 'Roboto Slab', serif;
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+.body {
+  padding-left: 80px;
+  padding-right: 80px;
+  /* background-color: rgb(107, 145, 141); */
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #f900fd;
+  transition: 1s;
+  font-size: 1.5rem;
+}
+
+nav{
+  align-items: center;
+  
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  padding-top: 15px;
+
+  /* border: 2px solid red; */
+  /* background-color: whitesmoke; */
+}
+
+.button {
+  text-decoration: none;
+  color: pink;
+  background-color: rgb(228, 62, 11);
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 35px;
+  border: none;
+}
+
+.stat-grid{
+  display: grid;
+  /* border: 2px solid red; */
+  grid-template-columns: auto auto;
+  /* grid-template-rows: auto; */
+  gap: 1rem;
+}
+.statistics {
+  padding-left: 5px;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  /* background-color: #f900fd; */
+  /*border: 5px solid red;*/
+}
+
+.statistics h3 {
+  font-size: 2.5em;
+  color: rgb(11, 11, 92);
+}
+
+.statistics p {
+  padding-bottom: 13px;
+  line-height: 25px;
+  color: rgb(21, 21, 59);
+  font-size: 14px;
+  width: 50%;
+  overflow-wrap: break-word;
+}
+
+.stat-grid img{
+  /* border: 2px solid red; */
+  width: 100%;
+  /* height: 340px; */
+  padding-bottom: 80px;
+  padding-top: 80px;
+  /* background-color: azure; */
+}
+
+
+.middle {
+  /* border: 5px solid red; */
+  /* padding-left: 5px; */
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, auto);
+  padding-bottom: 50px;
+}
+
+/* .manage {
+  /*border: 5px solid red;*/
+  /* width: 48%; */
+  /* background-color: aqua;
+} */
+
+.middle h3 {
+  font-size: 2.1em;
+  color: rgb(11, 11, 92);
+  width: 75%;
+  padding-bottom: 15px;
+}
+
+#manage {
+  width: 55%;
+  line-height: 30px;
+  color: rgb(21, 21, 59);
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+
+/* #span {
+  /* width: 50%; */
+  /*border: red 5px solid;*/
+  /* padding-left: 5px; */
+  /*float: right;*/
+  /* background-color: bisque;
+} */
+
+span {
+  color: pink;
+  background-color: rgb(228, 62, 11);
+  padding: 4px 17px;
+  border-radius: 35px;
+  white-space: nowrap;
+}
+
+#span h4 {
+  display: inline-block;
+  padding-left: 13px;
+  color: rgb(11, 11, 92);
+  padding-bottom: 17px;
+  padding-top: 10px;
+}
+
+#span p {
+  padding-left: 70px;
+  width: 75%;
+  overflow-wrap: break-word;
+}
+
+.testimonial{
+  /* border: red 2px solid; */
+}
+
+.testimonial h2 {
+  color: rgb(11, 11, 92);
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.testimonial h5 {
+  color: rgb(11, 11, 92);
+  text-align: center;
+}
+
+.testimonial .box {
+  display: grid;
+  /* gap: 1rem; */
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: 2px solid red; */
+  /* min-height: 330px; */
+}
+
+.card{
+  /* background-color: wheat; */
+}
+.card img {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 120px;
+}
+
+.testimonial .review {
+  background: rgb(235, 231, 231);
+  height: 170px;
+  width: 200px;
+  padding: 20px 35px;
+  border-radius: 10px;
+  margin: 15px;
+  text-align: center;
+}
+
+.testimonial #btn {
+  /* padding-left: 550px; */
+  padding: 50px 0;
+  text-align: center;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(230, 65, 15);
+  padding: 40px 80px;
+  /* margin-top: 20px; */
+}
+
+section h3 {
+  font-size: 30px;
+  color: rgb(252, 240, 240);
+  ;
+}
+
+section #white {
+  color: rgb(228, 62, 11);
+  background-color: rgb(252, 240, 240);
+}
+
+
+footer .socials .media {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
+footer .socials .media a {
+  color: white;
+}
+
+
+
+footer .items .list ul li {
+  list-style-type: none;
+  display: block;
+  padding: 10px;
+}
+
+footer .items .list ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .items {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+footer .list {
+  padding-right: 75px;
+}
+
+footer #email {
+  display: inline;
+  padding: 8px 100px 8px 15px;
+  border: 2px solid #faf7f8;
+  outline: none;
+  border-radius: 30px;
+}
+
+footer p {
+  padding-top: 50px;
+  text-align: center;
+  color: #f5f5f565;
+}
+
+footer .email-go {
+  padding-top: 50px;
+}
+
+/*footer .hold p{
+padding-bottom: 50px;
+}*/
+
+.all {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: rgb(22, 20, 20);
+  color: white;
+  padding: 0 80px;
+
+}
+
+footer img {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  *{
+    padding: 0;
+  }
+
+  body{
+    background-color: lemonchiffon;
+  }
+
+  .body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  nav{
+    /* border: 2px solid red; */
+  }
+  nav ul, nav a{
+    display: none;
+  }
+
+  .stat-grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stat-grid img{
+    width: 100%;
+    height: 100%;
+  }
+  .statistics{
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+
+  .statistics p{
+    width: 100%;
+  }
+
+  .middle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+
+  .manage, #manage, .middle h3, #span{
+    width: 100%;
+  }
+
+  .testimonial h2{
+    padding-top: 40px;
+    text-align: center;
+  }
+  .testimonial{
+    text-align: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+
+  #btn{
+    display: none;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 30px 90px; */
+    /* border: 2px solid red; */
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    /* width: 100%; */
+    padding: 0;
+    /* border: 2px solid red; */
+  }
+
+  #hide1{
+    display: none;
+  }
+
+  .email-go{
+    display: none;
+  }
+}
